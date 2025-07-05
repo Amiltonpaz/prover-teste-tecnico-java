@@ -8,7 +8,7 @@ O projeto foi construído com foco em:
 - Boas práticas de desenvolvimento
 - Testabilidade
 - Arquitetura limpa
-- Código Limpo
+- Código Limpo (Pelo fato de ser um teste técnico, utilizei comentários para explicar melhor o código, considerando que a prática do clean code desencoraja o uso de comentários, uma vez    que a leitura do código se torne fluída pelas próprias características do Clean Code)
 - Padrões de Projeto
 - Princípios SOLID
 
