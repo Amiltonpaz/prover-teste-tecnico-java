@@ -1,14 +1,13 @@
 package br.com.prover.teste.controller;
 
-import br.com.prover.teste.service.AnaliseService;
 import br.com.prover.teste.model.ResultadoAnalise;
 import br.com.prover.teste.service.IAnaliseService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
-import javax.faces.view.ViewScoped;
 import java.io.Serializable;
 
 @Named // Permite que a classe seja acessada via EL (ex: #{analiseBean})
