@@ -14,6 +14,33 @@ O projeto foi construído com foco em:
 
 ---
 
+## 📋 Requisitos do Desafio
+
+Este projeto foi desenvolvido para atender aos seguintes requisitos e premissas, conforme especificado no documento técnico.
+
+### Objetivo
+
+- Desenvolver um sistema web que receba uma frase digitada pelo usuário e retorne a quantidade de palavras distintas, bem como a quantidade de ocorrências de cada palavra encontrada na frase.
+
+### Requisitos Funcionais
+
+#### Interface Gráfica:
+- Deve permitir a entrada de uma frase pelo usuário.
+- Deve possuir um botão ou mecanismo para disparar a análise da frase.
+- Deve exibir o resultado da análise, mostrando a quantidade de palavras distintas e a quantidade de ocorrências de cada palavra.
+
+#### Backend:
+- Responsável por realizar a análise da frase.
+- O motor de análise deve ser capaz de processar apenas uma requisição por vez, de forma sincronizada.
+
+### Premissas Técnicas
+
+- A comunicação entre interface e backend deve ser feita utilizando binding de componentes para beans (EL).
+- O sistema deve utilizar maven e ser compatível para execução em WildFly na versão 10.
+- O código-fonte deverá ser disponibilizado em um repositório GIT.
+- O sistema deve ter compatibilidade com Chrome e Edge.
+- A stack de desenvolvimento deve obrigatoriamente incluir Java 8 , JSF, e PrimeFaces ou RichFaces.
+
 ## ✨ Funcionalidades
 
 - **Análise de Texto**: entrada de uma frase para análise.
@@ -49,7 +76,7 @@ br.com.prover.teste/
 ```
 ## 🚀 Como Executar o Projeto
 
-1. Pré-requisitos
+### 1. Pré-requisitos
 
 - JDK 8
 
@@ -59,13 +86,13 @@ br.com.prover.teste/
 
 - WildFly 10.1.0.Final
 
-2. Clonar o Repositório
+### 2. Clonar o Repositório
 ```text
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ```
 
-3. Construir o Projeto (Build)
+### 3. Construir o Projeto (Build)
 
 ```text
 mvn clean install
@@ -73,7 +100,7 @@ mvn clean install
 
 **O artefato prover-teste-tecnico.war será gerado em target/** .
 
-4. Deploy no WildFly
+### 4. Deploy no WildFly
 
 - Inicie o WildFly.
 
@@ -81,7 +108,7 @@ mvn clean install
 
 - O WildFly fará hot deploy automaticamente.
 
-5. Acessar a Aplicação
+### 5. Acessar a Aplicação
    
 - Abra no navegador e cole o seguinte endereço:
 ```text
@@ -103,14 +130,3 @@ mvn test
 # Amilton Carlos da Paz Junior
 
 https://www.linkedin.com/in/amiltonpaz/
-
-
-## ✅ Considerações Finais
-
-Este template facilita a leitura e manutenção do relatório, com:
-
-- Seções bem definidas
-
-- Tabelas e caixas de código corretas
-
-- Estrutura clara e organizada
