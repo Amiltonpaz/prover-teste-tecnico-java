@@ -1,0 +1,24 @@
+# Pasta de build do Maven (compilados, .war, etc.)
+target/
+
+# Arquivos de Log
+*.log
+log/
+logs/
+
+# Arquivos de metadados do Eclipse
+.classpath
+.project
+.settings/
+
+# Arquivos de metadados do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Arquivos do sistema operacional (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados por algumas ferramentas
+/out/
